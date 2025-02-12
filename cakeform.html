@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style2.css">
+    <title>Cakeform</title>
+  </head>  
+  
+  <body>
+    <div class="center">
+    <h2 style="text-align:center;">Cake order</h2>
+    <form>
+      <div>
+        <table>
+          <tr><td>Name</td> <td><input placeholder="Name" type="text"/></tr></td>          
+          <tr><td>Contact</td> <td><input placeholder="Contact" type="number"/></tr></td>
+          <tr><td>Alternate Contact Number</td> <td><input placeholder="Alternate number" type="number"/></tr></td>
+          <tr><td>Address</td> <td><textarea style="width:100%"></textarea></tr></td>          
+              <td>Cake Type</td>
+              <td><input class="dropdown" placeholder="Select Cake Type" list="Cake Type"><datalist id="Cake Type">
+                <option value="Birthday">
+                <option value="Anniversary">
+                <option value="Christmas">  
+                <option value="New year">               
+                </option></datalist></td>  
+            </tr>
+          <tr>
+            <td>Flavour</td>
+              <td><input class="dropdown" placeholder="Select Cake Flavour" list="Flavour"><datalist id="Flavour">
+                <option value="Vennila">
+                <option value="Butterscotch">    
+                <option value="Chocoloate">  
+                <option value="Brownie">   
+                <option value="Stawberry"> 
+                <option value="Black forest">   
+                <option value="White forest">   
+                <option value="Kitkate">           
+                </option></datalist></td> 
+          </tr>   
+          <tr><td>Cake weight</td> <td><input placeholder="Kgs" type="text"/></tr></td>  
+          <tr><td>Others</td> <td><textarea style="width:100%"></textarea></tr></td>    
+          <tr><td>tel</td> <td><a type="tel" >tel:0909898349894</a></tr></td>
+        <tr>            
+           <td><button type="button" onclick="alert('Order placed Successfully!')">Submit</td>
+           <td><button type="button">Reset</td>    
+           <td><button type="button" onclick="history.back()">Previous Page</td> 
+        </tr>       
+    </div>
+    </table>
+    </form>
+</div>
+</body> 
+</html>

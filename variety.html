@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>variety</title>
+    
+</head>
+<style>
+    .cake {
+        background-color: rgb(203, 194, 211);
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        
+   }
+   .a,.b,.c,.d,.e,.f{
+    background-color: white; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    height: 300px;  
+    padding: 20px;
+    border: none !important;
+    width: 90% !important
+    
+   } 
+
+   button{
+    background-color: white;
+    height: 30px;
+    /* font-style: oblique; */
+    border: 0px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #d2691e;
+    border: 1px solid #d2691e;
+    text-align: center;
+    &:hover{  
+        background-color: #d2691e;
+        color: white;
+        cursor: pointer;
+        border: 1px solid white;
+    }
+}
+@media screen and (max-width: 678px) {
+    .cake {
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+@media screen and (max-width: 558px) {
+    .cake {
+        grid-template-columns: 1fr ;
+    }
+}
+</style>
+<body>
+    <div class="cake">
+    <div class="a">   
+        <img src="happy-birthday-cake.webp" width="240px" height="200px">
+    <div>
+        <h3>Birthday Cakes</h3>            
+        <a href="cakeform.html"><button>Order</button></a>
+    </div>
+     </div>
+     <div class="b">
+        <img src="_christmas cake.jpg" width="240px" height="200px">
+    <div>
+        <h3>Christmas Cakes</h3>            
+        <a href="cakeform.html"><button>Order</button></a>
+    </div>
+    </div>
+    <div class="c">
+         <img src="anniversary.jpg" width="240px" height="200px">
+    <div>
+        <h3>Anniversary Cakes</h3>            
+        <a href="cakeform.html"><button>Order</button></a>
+    </div>
+    </div>
+    <div class="d">
+        <img src="brownie.jpg" width="240px" height="280px">
+    <div>
+        <h3>Brownies</h3>
+        <a href="cakeform.html"><button>Order</button></a>
+    </div>
+    </div>
+    <div class="e">
+        <img src="th1.jpg" width="240px" height="280px">
+     <div>
+        <h3>Cup Cakes</h3>
+        <a href="cakeform.html"><button>Order</button></a>
+    </div>
+    </div>
+    <div class="f">
+        <img src="ice-cream-cake-pm-700x467.jpg" width="240px" height="280px">
+    <div>
+        <h3>Icecream cake</h3>
+        <a href="cakeform.html"><button>Order</button></a>
+    </div>
+    </div>
+ </div>
+</body>
+</html>

@@ -15,9 +15,9 @@ h4{
 }
 .main{
     display:flex;
-    max-width: 400px;
-    min-width: 400px;   
-    justify-content: space-evenly;    
+    max-width: 370px;
+    min-width: 370px;   
+    justify-content: space-around;    
 }
 .icon{
     display: none;
